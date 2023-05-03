@@ -1,0 +1,27 @@
+Task 
+
+Your manager has called for a quick meeting because she want you to go to the Dev Env, and check whether the jenkins server has docker and git installed, 
+and if not installed, she want you to install the two binaries. The manager has advised you to create a bash script that will 
+check if the docker and the git binaries exist in the jenkins server and if not the script should be able to install both. 
+The manager would like to ensure that the script will run as the root. The root priviliges are vital when installing packages 
+in the work servers because this can affect the compatability of the enviornment. Finally, the manager would like you to test, and 
+then push the script and store it in the dev branch to allow collaboration and for future reusability. 
+
+Point to observe. 
+
+Docker is a service. Therefore, ensure that docker service is started and enabled. 
+
+Solution is a bash script  
+===================================================================================================================
+Planning the steps  
+1. check whether docker and git exist
+2. Not found ==> install them 
+3. Prepare a bash script to install the packages 
+4. Test the script ==> if it works, then 
+5. push it to dev branch in github 
+6. send an email to the manager to alert him that the task is done/ if is a ticket, you can simply drag to DONE
+====================================================================================================================
+Executing the steps 
+1. Start by writing a bash script    ==> check whether docker and git are installed and if not install them. 
+2. Test the script 
+3. Push it to github 
